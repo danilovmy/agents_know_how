@@ -8,7 +8,7 @@ Below is a prompt fragment added to OpenClaw agents.
 For Telegram actions requiring confirmation, send `message(action=send)` with exactly:
 
 ```json
-{"blocks":[{"type":"buttons","buttons":[{"label":"Подтвердить","value":"confirm:<action_id>"},{"label":"Отмена","value":"cancel:<action_id>"}]}]}
+{"blocks":[{"type":"buttons","buttons":[{"label":"Confirm","value":"confirm:<action_id>"},{"label":"Cancel","value":"cancel:<action_id>"}]}]}
 ```
 
 For English use labels `confirm`/`cancel`. Keep values scoped and under 64 bytes. Do not act before the matching callback. Cancel does nothing. If buttons fail, report blocked; never substitute text-only confirmation.
@@ -33,8 +33,8 @@ Buttons do not replace open-ended questions: if there are more reasonable answer
       {
         "type": "buttons",
         "buttons": [
-          {"label": "До обеда", "value": "choice:meeting_time:before_lunch"},
-          {"label": "После обеда", "value": "choice:meeting_time:after_lunch"}
+          {"label": "Before lunch", "value": "choice:meeting_time:before_lunch"},
+          {"label": "After lunch", "value": "choice:meeting_time:after_lunch"}
         ]
       }
     ]
