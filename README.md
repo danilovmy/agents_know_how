@@ -1,16 +1,7 @@
 # agents_know_how
 
-Практические правила и готовые фрагменты промптов для удобного взаимодействия с AI-агентами.
+Practical rules and ready-to-use prompt snippets for clear, efficient interaction with AI agents.
 
-## Зачем это сделано
+## Sections
 
-Когда вопрос допускает два или несколько коротких исчерпывающих вариантов, пользователю удобнее нажать кнопку, чем печатать ответ. Это уменьшает неоднозначность, исключает опечатки и связывает выбранный вариант с конкретным действием.
-
-Первый материал — [`buttons/buttons_ru.md`](buttons/buttons_ru.md): правило для Telegram-кнопок, используемое агентами OpenClaw.
-
-## Почему это хорошо
-
-- меньше лишних сообщений и ручного ввода;
-- однозначный машинно-читаемый выбор;
-- безопасное подтверждение действий;
-- открытые вопросы остаются обычным диалогом, без искусственного ограничения кнопками.
+- [Buttons](buttons/) — Telegram button patterns for short, explicit, mutually exclusive, and exhaustive choices, including confirmation flows and neutral selections.
