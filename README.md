@@ -4,4 +4,4 @@ Practical rules and ready-to-use prompt snippets for clear, efficient interactio
 
 ## Sections
 
-- [Buttons](buttons/) — Telegram button patterns for short, explicit, mutually exclusive, and exhaustive choices, including confirmation flows and neutral selections.
+- [Buttons](buttons/readme.md) — Clickable choice patterns for Telegram and Codex, including confirmation flows and neutral selections.
